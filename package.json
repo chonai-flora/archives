@@ -38,7 +38,7 @@
     "url": "git+https://github.com/gatsbyjs/gatsby-starter-blog.git"
   },
   "scripts": {
-    "build": "BUILD_PATH=./docs gatsby build",
+    "build": "gatsby build && rm -rf docs/ && mv public/ docs/",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
     "start": "gatsby develop",
