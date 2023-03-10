@@ -34,16 +34,16 @@ const BlogIndex = ({ data, location }) => {
                 itemType="http://schema.org/Article"
               >
                 <header>
-                  {post.frontmatter.isDraft 
-                    ? <></>
-                    : <>
+                  {!post.frontmatter.isDraft && (
+                    <>
                       <h2>
                         <Link to={`${data.site.pathPrefix}${post.fields.slug}`} itemProp="url">
                           <span itemProp="headline">{title}</span>
                         </Link>
                       </h2>
                       <small>{post.frontmatter.date} - {post.frontmatter.category}</small>
-                    </>}
+                    </>
+                  )}
                 </header>
               </article>
             </li>
