@@ -1,10 +1,56 @@
-<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[chonai-flora's archives]]></description><link>https://chonai-flora.github.io/archives</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 May 2023 13:17:06 GMT</lastBuildDate><item><title><![CDATA[No title]]></title><description><![CDATA[はじめに 初投稿です。 Reactで「MarkLive PDF」というMarkdownエディタを作りました。作成・編集したMarkdownファイルをPDF化することができます。 https://chonai-flora.github.io/marklive-pdf…]]></description><link>https://chonai-flora.github.io/archives/13/</link><guid isPermaLink="false">https://chonai-flora.github.io/archives/13/</guid><content:encoded>&lt;h1&gt;はじめに&lt;/h1&gt;
-&lt;p&gt;初投稿です。&lt;br&gt;
-Reactで「&lt;a href=&quot;https://chonai-flora.github.io/marklive-pdf/&quot;&gt;MarkLive PDF&lt;/a&gt;」というMarkdownエディタを作りました。作成・編集したMarkdownファイルをPDF化することができます。&lt;/p&gt;
+<?xml version="1.0" encoding="UTF-8"?><rss xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom" version="2.0"><channel><title><![CDATA[Gatsby Starter Blog RSS Feed]]></title><description><![CDATA[chonai-flora's archives]]></description><link>https://chonai-flora.github.io/archives</link><generator>GatsbyJS</generator><lastBuildDate>Sat, 27 May 2023 13:39:05 GMT</lastBuildDate><item><title><![CDATA[LINE botの作り方]]></title><description><![CDATA[これはなんですか LINE botの作り方です。 何をすればいいですか LINE Notifyにログインします。 01.png 次はどうすればいいですか 「My page」へ移動し、「Generate token」をクリックします。
+通知用のLINE…]]></description><link>https://chonai-flora.github.io/archives/14/</link><guid isPermaLink="false">https://chonai-flora.github.io/archives/14/</guid><pubDate>Sat, 27 May 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;これはなんですか&lt;/h2&gt;
+&lt;p&gt;LINE botの作り方です。&lt;/p&gt;
+&lt;h2&gt;何をすればいいですか&lt;/h2&gt;
+&lt;p&gt;&lt;a href=&quot;https://notify-bot.line.me/ja/&quot;&gt;LINE Notify&lt;/a&gt;にログインします。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/7fd312e1-e0b9-8e4e-567b-1018966ec344.png&quot; alt=&quot;01.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;次はどうすればいいですか&lt;/h2&gt;
+&lt;p&gt;「My page」へ移動し、「Generate token」をクリックします。
+通知用のLINEグループを作っておくとよいです。スクショは英語ですが、日本語でもなんとなく分かると思います。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/fe7aa3b6-52eb-8360-8cb6-82987c50b36e.png&quot; alt=&quot;02.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/1c4735dd-4ebf-ea99-ea40-ab6dcea1bf53.png&quot; alt=&quot;03.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;LINEグループを選択するとトークンが生成されます。一度しか表示されないので必ずメモしてください。もしトークンをメモし忘れた場合は再度トークルームを作り直しましょう。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/c3e25708-d39e-dcd6-a1b4-ce5716641729.png&quot; alt=&quot;04.png&quot;&gt;&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/1689b029-d752-ed9f-a18c-95e7388b05a7.png&quot; alt=&quot;05.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;何を書けばいいですか&lt;/h2&gt;
+&lt;p&gt;Pythonスクリプトを書きます。&lt;br&gt;
+今回はサンプルとして天気予報を自動取得するスクリプトを書いてみました。&lt;/p&gt;
+&lt;p&gt;以下のリンクにコードを置いています。コピペして試してみてください。
+&lt;a href=&quot;https://gist.github.com/chonai-flora/f44b04d5a6018a5503502c8e02011cf9&quot;&gt;https://gist.github.com/chonai-flora/f44b04d5a6018a5503502c8e02011cf9&lt;/a&gt;&lt;/p&gt;
+&lt;h2&gt;どうやって使いますか&lt;/h2&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;token &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;XXXXXXXXXX&apos;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;この部分に自分のトークンを貼り付けて実行してください。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/23f85560-4cb7-2777-7e9e-60fea20fa1bd.png&quot; alt=&quot;06.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;きました&lt;/h2&gt;
+&lt;p&gt;成功です。&lt;br&gt;
+ぜひ改造して自分流のbotをつくってみてください。&lt;br&gt;
+時間割botとかおすすめです。&lt;/p&gt;
+&lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/6d432443-57f7-0f52-19ae-f48bd76e2282.png&quot; alt=&quot;07.png&quot;&gt;&lt;/p&gt;
+&lt;h2&gt;どうやって改造しますか&lt;/h2&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;notice_to_line()&lt;/code&gt;の引数を変えてみましょう。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;main&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# weather_message = get_weather(&apos;熊本県&apos;)&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;# print(weather_message, &quot;\n&quot;)&lt;/span&gt;
+    
+    &lt;span class=&quot;token comment&quot;&gt;# 引数に送信したいメッセージを渡す&lt;/span&gt;
+    message &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;これはテストです&quot;&lt;/span&gt;
+    notice_to_line&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;message&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;もっと簡単になりませんか&lt;/h2&gt;
+&lt;p&gt;関数化することで使いやすくなりますが、別に関数化しなくても動きます。この数行だけでもちゃんと機能します。&lt;/p&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;python&quot;&gt;&lt;pre class=&quot;language-python&quot;&gt;&lt;code class=&quot;language-python&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; requests
+token &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;XXXXXXXXXX&apos;&lt;/span&gt;
+endpoint &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;https://notify-api.line.me/api/notify&apos;&lt;/span&gt;
+headers &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;Authorization&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Bearer &quot;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;+&lt;/span&gt; token &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+params &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&apos;message&apos;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;Python演習&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token comment&quot;&gt;# ←ここに送信したいメッセージを書く&lt;/span&gt;
+requests&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;post&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;endpoint&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; headers&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;headers&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; data&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;params&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;定期的に実行したいです&lt;/h2&gt;
+&lt;p&gt;いろいろと方法はありますが、ちょうど部室にたくさんラズパイがあるので使ってみましょう。&lt;/p&gt;
+&lt;p&gt;そのうち資料追記します。&lt;/p&gt;</content:encoded></item><item><title><![CDATA[その場でPDFにエクスポートできるMarkdownエディタを作った]]></title><description><![CDATA[はじめに Reactで「MarkLive PDF」というMarkdownエディタを作りました。作成・編集したMarkdownファイルをPDF化することができます。 https://chonai-flora.github.io/marklive-pdf…]]></description><link>https://chonai-flora.github.io/archives/13/</link><guid isPermaLink="false">https://chonai-flora.github.io/archives/13/</guid><pubDate>Sat, 01 Apr 2023 00:00:00 GMT</pubDate><content:encoded>&lt;h2&gt;はじめに&lt;/h2&gt;
+&lt;p&gt;Reactで「&lt;a href=&quot;https://chonai-flora.github.io/marklive-pdf/&quot;&gt;MarkLive PDF&lt;/a&gt;」というMarkdownエディタを作りました。作成・編集したMarkdownファイルをPDF化することができます。&lt;/p&gt;
 &lt;p&gt;&lt;a href=&quot;https://chonai-flora.github.io/marklive-pdf/&quot;&gt;https://chonai-flora.github.io/marklive-pdf/&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;動機&lt;/h1&gt;
+&lt;h2&gt;動機&lt;/h2&gt;
 &lt;p&gt;部の議録やゼミ資料をWordでつくるのが面倒なので、MarkdownをサクッとPDF化できたらいいなと思い実装しました。実装はかなり緩いのでバグ等あるかもしれません...。&lt;/p&gt;
-&lt;h1&gt;使い方&lt;/h1&gt;
+&lt;h2&gt;使い方&lt;/h2&gt;
 &lt;p&gt;エディタにそのままMarkdownファイルを書き込んでください。エディタ部はuiwの &lt;a href=&quot;https://uiwjs.github.io/react-md-editor/&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;react-md-editor&lt;/code&gt;&lt;/a&gt; をほとんどそのままお借りしています。&lt;/p&gt;
 &lt;p&gt;左下の「Markdown形式で保存」ボタンで編集中のmdファイルがダウンロードされます。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/267161a9-635b-33d9-f302-6b9d387c0629.png&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
@@ -13,169 +59,173 @@ Reactで「&lt;a href=&quot;https://chonai-flora.github.io/marklive-pdf/&quot;&g
 &lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/5ae9fba8-bf5a-18de-f3cb-c248f2c072ab.png&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
 &lt;p&gt;もちろん画像埋め込みやハイパーリンク、LaTexにも対応しています。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/e540a355-b78c-aeb1-1ec5-aa6c3233aac0.png&quot; alt=&quot;image.png&quot;&gt;&lt;/p&gt;
-&lt;h1&gt;実装&lt;/h1&gt;
+&lt;h2&gt;実装&lt;/h2&gt;
 &lt;p&gt;PDFへの変換は「PDF Preview」に表示している内容にrefオブジェクトを渡し、 &lt;a href=&quot;https://www.npmjs.com/package/react-to-print&quot;&gt;&lt;code class=&quot;language-text&quot;&gt;react-to-print&lt;/code&gt;&lt;/a&gt; で保存しています。DOMを印刷することができるライブラリです。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;pdfpreview.tsx&quot;&gt;&lt;pre class=&quot;language-pdfpreview.tsx&quot;&gt;&lt;code class=&quot;language-pdfpreview.tsx&quot;&gt;import &amp;#39;katex/dist/katex.css&amp;#39;;
-import remarkMath from &amp;#39;remark-math&amp;#39;;
-import rehypeKatex from &amp;#39;rehype-katex&amp;#39;;
-import MDEditor from &amp;#39;@uiw/react-md-editor&amp;#39;;
+&lt;div class=&quot;gatsby-code-title gatsby-remark-code-title&quot;&gt;PdfPreview.tsx&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;katex/dist/katex.css&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; remarkMath &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;remark-math&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; rehypeKatex &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;rehype-katex&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; MDEditor &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@uiw/react-md-editor&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-const PdfPreview = (props: { source: string }) =&amp;gt; {
-    return (
-        &amp;lt;div id=&amp;#39;pdf&amp;#39; data-color-mode=&amp;#39;light&amp;#39; style={{ marginBottom: &amp;#39;80px&amp;#39; }}&amp;gt;
-            &amp;lt;MDEditor.Markdown
-                style={{ margin: &amp;#39;30px&amp;#39;, pageBreakAfter: &amp;#39;always&amp;#39; }}
-                disableCopy={true}
-                remarkPlugins={[remarkMath]}
-                rehypePlugins={[rehypeKatex]}
-                source={props.source || ``}
-            /&amp;gt;
-        &amp;lt;/div&amp;gt;
-    );
-}
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;PdfPreview&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;props&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; source&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div id&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;pdf&quot;&lt;/span&gt; data&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;color&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;mode&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;light&quot;&lt;/span&gt; style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; marginBottom&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;80px&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;MDEditor&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;Markdown
+                style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; margin&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;30px&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; pageBreakAfter&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;always&quot;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                disableCopy&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                remarkPlugins&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;remarkMath&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                rehypePlugins&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;rehypeKatex&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                source&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;props&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;source &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
 
-export default PdfPreview;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;editor.tsx&quot;&gt;&lt;pre class=&quot;language-editor.tsx&quot;&gt;&lt;code class=&quot;language-editor.tsx&quot;&gt;import React, { useRef, useState, useEffect } from &amp;#39;react&amp;#39;;
-import MDEditor, { MDEditorProps } from &amp;#39;@uiw/react-md-editor&amp;#39;;
+&lt;span class=&quot;token keyword&quot;&gt;export&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;default&lt;/span&gt; PdfPreview&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;div class=&quot;gatsby-code-title gatsby-remark-code-title&quot;&gt;Editor.tsx&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; React&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useRef&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; useState&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; useEffect &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; MDEditor&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; MDEditorProps &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;@uiw/react-md-editor&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-import PdfPreview from &amp;#39;./PdfPreview&amp;#39;;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; PdfPreview &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./PdfPreview&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-const Editor = () =&amp;gt; {
-    /* 省略 */
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Editor&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
     
-    // PDF用のrefオブジェクト
-    const pdfRef = useRef(null);
+    &lt;span class=&quot;token comment&quot;&gt;// PDF用のrefオブジェクト&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; pdfRef &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useRef&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
     
-    const [mdTitle, setTitle] = useState&amp;lt;string&amp;gt;(``);
-    const [state, setVisible] = useState&amp;lt;MDEditorProps&amp;gt;({
-        visibleDragbar: true,
-        hideToolbar: true,
-        highlightEnable: true,
-        enableScroll: true,
-        value: ``,
-        preview: &amp;#39;live&amp;#39;,
-    });
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;mdTitle&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; setTitle&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token generic-function&quot;&gt;&lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token generic class-name&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token builtin&quot;&gt;string&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; setVisible&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token generic-function&quot;&gt;&lt;span class=&quot;token function&quot;&gt;useState&lt;/span&gt;&lt;span class=&quot;token generic class-name&quot;&gt;&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;MDEditorProps&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        visibleDragbar&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        hideToolbar&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        highlightEnable&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        enableScroll&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        value&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+        preview&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;live&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-    return (
-        &amp;lt;div data-color-mode=&amp;#39;light&amp;#39;&amp;gt;
-            /* 省略 */
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div data&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;color&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;mode&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;light&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
             
-            &amp;lt;h3&amp;gt;PDF Preview&amp;lt;/h3&amp;gt;
-            &amp;lt;div ref={pdfRef}&amp;gt;
-                // PdfPreview に編集中のmdデータを渡す
-                {state.value &amp;amp;&amp;amp; (
-                    state.value!.split(&amp;#39;&amp;lt;br&amp;gt;&amp;#39;).map((section) =&amp;gt; &amp;lt;PdfPreview source={section} /&amp;gt;)
-                )}
-            &amp;lt;/div&amp;gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;h3&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token constant&quot;&gt;PDF&lt;/span&gt; Preview&lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;h3&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div ref&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;pdfRef&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                &lt;span class=&quot;token comment&quot;&gt;// PdfPreview に編集中のmdデータを渡す&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+                    state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;&amp;lt;br&gt;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;map&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;section&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;PdfPreview source&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;section&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;
+                &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
            
-            /* 省略 */
-        &amp;lt;/div&amp;gt;
-    );
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;PdfPreview&lt;/code&gt; のstyleに &lt;code class=&quot;language-text&quot;&gt;pageBreakAfter: &apos;always&apos;&lt;/code&gt; を指定することで、ページ分割を実現しています。&lt;/p&gt;
+            &lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;p&gt;&lt;code class=&quot;language-text&quot;&gt;PdfPreview&lt;/code&gt; のstyleに &lt;code class=&quot;language-text&quot;&gt;pageBreakAfter: &quot;always&quot;&lt;/code&gt; を指定することで、ページ分割を実現しています。&lt;/p&gt;
 &lt;p&gt;あとはボタンを配置して &lt;code class=&quot;language-text&quot;&gt;ReactToPrint&lt;/code&gt; の &lt;code class=&quot;language-text&quot;&gt;content&lt;/code&gt; に先ほどのrefオブジェクトを渡します。スタイルが適用されるのもありがたいです。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;editor.tsx&quot;&gt;&lt;pre class=&quot;language-editor.tsx&quot;&gt;&lt;code class=&quot;language-editor.tsx&quot;&gt;import ReactToPrint from &amp;#39;react-to-print&amp;#39;;
+&lt;div class=&quot;gatsby-code-title gatsby-remark-code-title&quot;&gt;Editor.tsx&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; ReactToPrint &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-to-print&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-/* 省略 */
+&lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
 
-const Editor = () =&amp;gt; {
-    return (
-        &amp;lt;div data-color-mode=&amp;#39;light&amp;#39;&amp;gt;
-            /* 省略 */
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Editor&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div data&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;color&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;mode&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;light&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
     
-            &amp;lt;div&amp;gt;
-                &amp;lt;ReactToPrint
-                    trigger={() =&amp;gt; (
-                        &amp;lt;button
-                            type=&amp;#39;button&amp;#39;
-                            disabled={!state.value}
-                            style={{ marginLeft: 10 }}
-                        &amp;gt;
-                            PDF形式にエクスポート
-                        &amp;lt;/button&amp;gt;
-                    )}
-                    content={() =&amp;gt; pdfRef.current}
-                    documentTitle={`${mdTitle || &amp;quot;untitled&amp;quot;}.pdf`}
-                /&amp;gt;
-            &amp;lt;/div&amp;gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;ReactToPrint
+                    trigger&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;button
+                            type&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;button&quot;&lt;/span&gt;
+                            disabled&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                            style&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; marginLeft&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token number&quot;&gt;10&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                        &lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                            &lt;span class=&quot;token constant&quot;&gt;PDF&lt;/span&gt;形式にエクスポート
+                        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;button&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    content&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; pdfRef&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;current&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    documentTitle&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token interpolation&quot;&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;${&lt;/span&gt;mdTitle &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;untitled&quot;&lt;/span&gt;&lt;span class=&quot;token interpolation-punctuation punctuation&quot;&gt;}&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;.pdf&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
             
-            /* 省略 */
-        &amp;lt;/div&amp;gt;
-    );
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
-&lt;h1&gt;改善点&lt;/h1&gt;
+            &lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;
+&lt;h2&gt;改善点&lt;/h2&gt;
 &lt;ul&gt;
 &lt;li&gt;&lt;code class=&quot;language-text&quot;&gt;redux-persist&lt;/code&gt; でstoreの状態(編集中のテキスト)を永続化しても良いかも&lt;/li&gt;
 &lt;li&gt;ドラッグ&amp;#x26;ドロップでファイルを読み込めるようにしても良いかも&lt;/li&gt;
 &lt;/ul&gt;
-&lt;h1&gt;おわりに&lt;/h1&gt;
+&lt;h2&gt;おわりに&lt;/h2&gt;
 &lt;p&gt;今のところ想定通り動いてくれているので、資料作成が捗っています。部員に使用感等聞いて適宜修正していけたらと思います。&lt;/p&gt;
 &lt;p&gt;リポジトリ: &lt;a href=&quot;https://github.com/chonai-flora/marklive-pdf/&quot;&gt;https://github.com/chonai-flora/marklive-pdf/&lt;/a&gt;&lt;br&gt;
 参考: &lt;a href=&quot;https://github.com/uiwjs/react-md-editor/&quot;&gt;https://github.com/uiwjs/react-md-editor/&lt;/a&gt;&lt;/p&gt;
-&lt;h1&gt;追記: ドラッグアンドドロップに対応&lt;/h1&gt;
+&lt;h2&gt;追記: ドラッグアンドドロップに対応&lt;/h2&gt;
 &lt;p&gt;テキストエリアへのドラッグアンドドロップ機能を追加しました。テキストエリアにMarkdownファイルをドラッグアンドドロップして編集することができます。&lt;/p&gt;
-&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;editor.tsx&quot;&gt;&lt;pre class=&quot;language-editor.tsx&quot;&gt;&lt;code class=&quot;language-editor.tsx&quot;&gt;import { useDropzone } from &amp;#39;react-dropzone&amp;#39;;
+&lt;div class=&quot;gatsby-code-title gatsby-remark-code-title&quot;&gt;Editor.tsx&lt;/div&gt;
+&lt;div class=&quot;gatsby-highlight&quot; data-language=&quot;typescript&quot;&gt;&lt;pre class=&quot;language-typescript&quot;&gt;&lt;code class=&quot;language-typescript&quot;&gt;&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; useDropzone &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;react-dropzone&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-import PdfPreview from &amp;#39;./PdfPreview&amp;#39;;
+&lt;span class=&quot;token keyword&quot;&gt;import&lt;/span&gt; PdfPreview &lt;span class=&quot;token keyword&quot;&gt;from&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;./PdfPreview&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-const Editor = () =&amp;gt; {
-    /* 省略 */
+&lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token function-variable function&quot;&gt;Editor&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+    &lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
     
-    const onDrop = useCallback(async (acceptedFiles: File[]) =&amp;gt; {
-        const acceptedFile = acceptedFiles.slice(-1)[0];
-        const filename = acceptedFile.name || ``;
-        const extension = filename.split(&amp;#39;.&amp;#39;).pop()?.toLowerCase();
-        if (extension !== undefined &amp;amp;&amp;amp; extension !== &amp;#39;md&amp;#39;) {
-            setTitle(&amp;quot;file type is not supported&amp;quot;);
-            setVisible({
-                ...state,
-                value: &amp;quot;このファイルのプレビューを表示できません。拡張子が`md`のファイルのみ対応しています。&amp;quot;
-            });
-        }
-        else {
-            const text = await acceptedFile.text();
-            setTitle(filename.split(&amp;#39;.&amp;#39;)[0]);
-            setVisible({
-                ...state,
-                value: text
-            });
-        }
-    }, []);
-    const { getRootProps, getInputProps } = useDropzone({ onDrop, noClick: true });
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; onDrop &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useCallback&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token keyword&quot;&gt;async&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;acceptedFiles&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; File&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; acceptedFile &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; acceptedFiles&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;slice&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;1&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; filename &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; acceptedFile&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;name &lt;span class=&quot;token operator&quot;&gt;||&lt;/span&gt; &lt;span class=&quot;token template-string&quot;&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;span class=&quot;token template-punctuation string&quot;&gt;`&lt;/span&gt;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; extension &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; filename&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;pop&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;?.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;toLowerCase&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;extension &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;undefined&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;&amp;amp;&amp;amp;&lt;/span&gt; extension &lt;span class=&quot;token operator&quot;&gt;!==&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;md&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token function&quot;&gt;setTitle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;file type is not supported&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token function&quot;&gt;setVisible&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                value&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;このファイルのプレビューを表示できません。拡張子が`md`のファイルのみ対応しています。&quot;&lt;/span&gt;
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+        &lt;span class=&quot;token keyword&quot;&gt;else&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+            &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; text &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token keyword&quot;&gt;await&lt;/span&gt; acceptedFile&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;text&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token function&quot;&gt;setTitle&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;filename&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;split&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;.&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;0&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+            &lt;span class=&quot;token function&quot;&gt;setVisible&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                value&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; text
+            &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+        &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+    &lt;span class=&quot;token keyword&quot;&gt;const&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; getRootProps&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; getInputProps &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token function&quot;&gt;useDropzone&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; onDrop&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; noClick&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token boolean&quot;&gt;true&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
 
-    return (
-        &amp;lt;div data-color-mode=&amp;#39;light&amp;#39;&amp;gt;
-            /* 省略 */
+    &lt;span class=&quot;token keyword&quot;&gt;return&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div data&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;color&lt;span class=&quot;token operator&quot;&gt;-&lt;/span&gt;mode&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token string&quot;&gt;&quot;light&quot;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
             
-            &amp;lt;div {...getRootProps()}&amp;gt;
-                &amp;lt;input {...getInputProps()} /&amp;gt;
-                &amp;lt;MDEditor
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;div &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getRootProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;input &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;&lt;span class=&quot;token function&quot;&gt;getInputProps&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;MDEditor
                     autoFocus
-                    value={state.value}
-                    previewOptions={{
-                        linkTarget: &amp;#39;_blank&amp;#39;,
-                        remarkPlugins: [remarkMath],
-                        rehypePlugins: [rehypeKatex]
-                    }}
-                    height={400}
-                    highlightEnable={state.highlightEnable}
-                    hideToolbar={!state.hideToolbar}
-                    enableScroll={state.enableScroll}
-                    visibleDragbar={state.visibleDragbar}
-                    textareaProps={{
-                        placeholder: &amp;quot;記事やレポートをMarkdown形式で記述してください&amp;quot;,
-                    }}
-                    preview={state.preview}
-                    onChange={(newValue = &amp;#39;&amp;#39;) =&amp;gt; {
-                        setVisible({ ...state, value: newValue });
-                    }}
-                /&amp;gt;
-            &amp;lt;/div&amp;gt;
+                    value&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;value&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    previewOptions&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        linkTarget&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;_blank&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                        remarkPlugins&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;remarkMath&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                        rehypePlugins&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;[&lt;/span&gt;rehypeKatex&lt;span class=&quot;token punctuation&quot;&gt;]&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    height&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token number&quot;&gt;400&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    highlightEnable&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;highlightEnable&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    hideToolbar&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;!&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;hideToolbar&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    enableScroll&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;enableScroll&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    visibleDragbar&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;visibleDragbar&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    textareaProps&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        placeholder&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;記事やレポートをMarkdown形式で記述してください&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    preview&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;.&lt;/span&gt;preview&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                    onChange&lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;newValue &lt;span class=&quot;token operator&quot;&gt;=&lt;/span&gt; &lt;span class=&quot;token string&quot;&gt;&quot;&quot;&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;=&gt;&lt;/span&gt; &lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt;
+                        &lt;span class=&quot;token function&quot;&gt;setVisible&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;{&lt;/span&gt; &lt;span class=&quot;token operator&quot;&gt;...&lt;/span&gt;state&lt;span class=&quot;token punctuation&quot;&gt;,&lt;/span&gt; value&lt;span class=&quot;token operator&quot;&gt;:&lt;/span&gt; newValue &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+                    &lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;
+                &lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+            &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
            
-            /* 省略 */
-        &amp;lt;/div&amp;gt;
-    );
-}&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[クリスマス抽選ソフトのつくり方]]></title><description><![CDATA[今更ですがクリスマス抽選会で使ったソフトの中身を適当に解説します。 概要 　昨年のクリスマス抽選会で以下のような抽選ソフトを使用しました。 01.png 学科や学年ごとの人数、景品と当選人数を設定し、ランダムに選ぶだけの簡単なものです。Siv3Dで作成しました。 02.png…]]></description><link>https://chonai-flora.github.io/archives/12/</link><guid isPermaLink="false">https://chonai-flora.github.io/archives/12/</guid><pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;今更ですがクリスマス抽選会で使ったソフトの中身を適当に解説します。&lt;/p&gt;
+            &lt;span class=&quot;token comment&quot;&gt;/* 省略 */&lt;/span&gt;
+        &lt;span class=&quot;token operator&quot;&gt;&amp;lt;&lt;/span&gt;&lt;span class=&quot;token operator&quot;&gt;/&lt;/span&gt;div&lt;span class=&quot;token operator&quot;&gt;&gt;&lt;/span&gt;
+    &lt;span class=&quot;token punctuation&quot;&gt;)&lt;/span&gt;&lt;span class=&quot;token punctuation&quot;&gt;;&lt;/span&gt;
+&lt;span class=&quot;token punctuation&quot;&gt;}&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;</content:encoded></item><item><title><![CDATA[クリスマス抽選ソフトのつくり方]]></title><description><![CDATA[今更ですがクリスマス抽選会で使ったソフトの中身を適当に解説します。 概要 　昨年のクリスマス抽選会で以下のような抽選ソフトを使用しました。 01.png 学科や学年ごとの人数、景品と当選人数を設定し、ランダムに選ぶだけの簡単なものです。Siv3Dで作成しました。 02.png…]]></description><link>https://chonai-flora.github.io/archives/12/</link><guid isPermaLink="false">https://chonai-flora.github.io/archives/12/</guid><pubDate>Fri, 17 Mar 2023 00:00:00 GMT</pubDate><content:encoded>&lt;p&gt;今更ですがクリスマス抽選会で使ったソフトの中身を適当に解説します。&lt;/p&gt;
 &lt;h2&gt;概要&lt;/h2&gt;
 &lt;p&gt;　昨年のクリスマス抽選会で以下のような抽選ソフトを使用しました。&lt;/p&gt;
 &lt;p&gt;&lt;img src=&quot;https://qiita-image-store.s3.ap-northeast-1.amazonaws.com/0/1889756/e95b30d6-b5ff-b667-3a15-639ce55f2428.png&quot; alt=&quot;01.png&quot;&gt;&lt;/p&gt;
